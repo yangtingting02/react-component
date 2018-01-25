@@ -48,6 +48,6 @@ const ActionButtonGroup = ({children, style}) => {
       }
     </span>
   );
-}
+};
 
 export default ActionButtonGroup;
