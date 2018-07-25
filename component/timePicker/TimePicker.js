@@ -38,7 +38,7 @@ class TimePicker extends React.Component {
         list: nextProps.list,
       });
     }
-    if (nextProps.avtive !== this.props.active) {
+    if (nextProps.active !== this.props.active) {
       this.setState({
         active: nextProps.active,
         visible: nextProps.active === 'custom' ? true : this.state.visible,
